@@ -2,26 +2,22 @@
   "main": {
     "name":"Bingfei Zhang",
     "occupation":"Master of Software Engineering",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"I am a Master of Software Engineering student at the University of California, Irvine. I have both frontend and backend intern and project experiences. I am currently looking for full-time Software Development Engineer opportunities.",
     "image":"avatar.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio1":"I am a curious person and I like learning new skills. I am a quick learner and I can learn new technologies in a short time. I have strong research skills and I am good at solving problems. I am familiar with the state of art software development tools including Java, JavaScript, Spring, React, and so on. My interest mainly falls on full-stack software development.",
+    "bio2":"I am outgoing and I am a team player. I love basketball. I won the Department's Basketball Championship when I was in university. In my free time, I like doing outdoor sports. I like fishing, hiking, and snowboarding. Also, I like reading. History, sci-fi and detective fiction are my favourites.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "bingfeiz@uci.edu",
     "phone": "949-880-5451",
     "address":{
-      "street":"745 Baycrest Drive",
-      "city":"North Vancouver",
-      "state":"BC",
-      "zip": "V7G 1N7"
+      "street":"188 Follyhatch",
+      "city":"Irvine",
+      "state":"CA",
+      "zip": "92618"
     },
-    "website": "",
-    "resumedownload":"",
+    "website": "https://www.bingfei.xyz",
+    "resumedownload":"https://drive.google.com/file/d/12vHT9HLGRSjpfHdFA8XFBfZbZmmdyihU/view?usp=sharing",
     "social":[
-      {
-        "name":"google-plus",
-        "url":"",
-        "className":"fa fa-google-plus"
-      },
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/bingfei-zhang",
@@ -41,7 +37,17 @@
         "school":"University of California, Irvine",
         "degree":"Masters of Software Engineering",
         "graduated":"Dec 2020",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "courses":"Applied Data Structures and Algorithms • Network Programming • Database Programming • Software Testing and Debugging •  Distributed Software Architecture • Mobile Programming • Software Security and Dependability"
+      },
+      {
+        "school":"Concordia University",
+        "degree":"Master of Applied Science, Civil Engineering",
+        "graduated":"May 2018"
+      },
+      {
+        "school":"Zhejiang University",
+        "degree":"Bachelor of Engineering, Civil Engineering",
+        "graduated":"Jun 2015"
       }
     ],
     "work":[
@@ -49,7 +55,32 @@
         "company":"University of California, Irvine",
         "title":"Software Development Engineer Intern",
         "years":"Jun 2020 - Sept 2020",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": [
+          "Participated in the development of a virtual conference platform for academic conferences - CLOWDR. Used by the 2020 International Conference on Functional Programming, the 2020 International Conference on Software Engineering, etc.",
+          "Developed the administration tables with React.js and Ant Design, implemented sorting, searching and inline editing functions for the conference tracks, papers, etc.",
+          "Converted the project from JavaScript to TypeScript."
+        ]
+      },
+      {
+        "company":"LNJ Capital Canada, Inc.",
+        "title":"Web developer",
+        "years":"Mar 2019 - Aug 2019",
+        "description": [
+          "Participated in the development of a website for a truck company.",
+          "Built a web page with BootStrap 4 and implemented functions including log in/sign up, package tracking with vue.js.",
+          "Developed the backend with Spring Boot and Spring Security, connect to the frontend with RESTful API calls.",
+          "Design database schemas including user profiles, shipping information, etc. for the project and stored data in MongoDB."
+        ]
+      },
+      {
+        "company":"Indus.ai",
+        "title":"Research Intern",
+        "years":"Jun 2020 - Oct 2020",
+        "description": [
+          "Developed an algorithm to locate construction equipment based on surveillance cameras with OpenCV and Python.",
+          "Implemented and tested deep learning algorithms on AWS to track and detect equipment on construction sites.",
+          "Researched algorithms for matching construction equipment in different camera views with OpenCV and Python."
+        ]
       }
     ]
   },
@@ -59,7 +90,37 @@
         "title":"CLOWDR",
         "category":"A vritual conference platform",
         "image":"CLOWDR.png",
+        "url":"https://github.com/bingfeizh/clowdr-web-app"
+      },
+      {
+        "title":"Portfolio",
+        "category":"My personal website.",
+        "image":"portfolio.png",
+        "url":"https://github.com/bingfeizh/portfolio"
+      },
+      {
+        "title":"Vison-based fall detection system",
+        "category":"A deep learning fall detection method.",
+        "image":"fall-detection.png",
         "url":"https://github.com/bingfeizh/Fall-detection"
+      },
+      {
+        "title":"National Park Guide",
+        "category":"An android app for national park information.",
+        "image":"national-park.png",
+        "url":"https://github.com/bingfeizh/national-park-guide"
+      },
+      {
+        "title":"Zoom Bot",
+        "category":"A wrapper of zoom APIs.",
+        "image":"Zoom.png",
+        "url":"https://github.com/bingfeizh/zoom-bot"
+      },
+      {
+        "title":"Multi-camera Views Object Matching",
+        "category":"A combinatorial matching method for multi-camera views.",
+        "image":"matching.png",
+        "url":"https://github.com/bingfeizh/Matching"
       }
     ]
   },
